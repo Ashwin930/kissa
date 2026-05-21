@@ -81,6 +81,31 @@
     .contact-line a:hover {
       color: #EFE5CF;
     }
+    .contact {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    font-family: serif;
+}
+
+.contact-row {
+    display: grid;
+    grid-template-columns: 120px auto;
+    width: 420px;
+    align-items: center;
+}
+
+.label {
+    text-align: right;
+    padding-right: 20px;
+    letter-spacing: 2px;
+}
+
+.value {
+    text-align: left;
+}
   </style>
 </head>
 <body>
@@ -95,9 +120,18 @@
     <h1 class="headline">Crafting in Progress</h1>
 
     <div class="contact">
-      <p class="contact-line">Contact &nbsp;–&nbsp;8800022100</p>
-      <p class="contact-line">Mail &nbsp;–&nbsp;info@kissa.co.in</p>
+
+    <div class="contact-row">
+        <div class="label">CONTACT -</div>
+        <div class="value">8800022100</div>
     </div>
+
+    <div class="contact-row">
+        <div class="label">MAIL -</div>
+        <div class="value">info@kissa.co.in</div>
+    </div>
+
+</div>
 
   </div>
 </body>
